@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@+id/contentPanel"
+    android:minHeight="0dp"
+    android:padding="05dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.mamurjor.mamurjor.mamurjor"
+    tools:layout_editor_absoluteY="81dp"
+    tools:showIn="@layout/app_bar_mamurjor">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="132dp"
+        android:layout_height="51dp"
+        android:background="@android:color/white"
+        android:elevation="24dp"
+        android:text="@string/app_name"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="227dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="135dp"
+        android:layout_height="134dp"
+        android:layout_marginBottom="464dp"
+        android:cropToPadding="true"
+        android:paddingBottom="0px"
+        android:paddingTop="0px"
+        android:rotation="-90"
+        android:scaleType="centerCrop"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/dsc_0074"
+        tools:layout_editor_absoluteX="129dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="198dp"
+        android:layout_height="44dp"
+        android:autoSizeMaxTextSize="10dp"
+        android:text="ShafinRahman"
+        android:textSize="30sp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="162dp"
+        tools:text="ShafinRahman"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="53dp"
+        android:layout_height="51dp"
+        app:srcCompat="@android:drawable/ic_menu_add"
+        tools:layout_editor_absoluteX="242dp"
+        tools:layout_editor_absoluteY="116dp" />
+
+    <HorizontalScrollView
+        android:layout_width="376dp"
+        android:layout_height="406dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="211dp">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:elevation="24dp"
+            android:text="LARAVEL "
+            android:textColor="@android:color/holo_green_light"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="227dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:elevation="24dp"
+            android:text="LARAVEL "
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="273dp" />
+    </HorizontalScrollView>
+
+</android.support.constraint.ConstraintLayout>
